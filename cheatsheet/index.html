@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>HTML Cheatsheet</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="eiyee.png" alt=""></span>
+        <div class="content center">
+            This is the RANAs sheet for you!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li><b>HTML Boilerplate :</b>This is the basic html boilerplate code
+                <pre class="language-html"><code>
+                      &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+            </li>
+            <li><b>ul Tag:</b>The ul unordered list element is used to create a list of items in no particular order.
+                <pre class="language-html"><code>
+&lt;ul&gt;
+&lt;li&gt;First&lt;/li&gt;
+&lt;li&gt;Second&lt;/li&gt;
+&lt;li&gt;Third&lt;/li&gt;
+&lt;/ul&gt;    
+                </code></pre>
+            </li>
+            <li><b>Table :</b>This is the basic code to generate a table
+                <pre class="language-html"><code>
+                &lt;table&gt;&lt;caption&gt;Phone numbers&lt;/caption&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+       &lt;th&gt;Name&lt;/th&gt;
+       &lt;th&gt; colspan="2"&gt;Phone&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+       &lt;td&gt;John&lt;/td&gt;
+       &lt;td&gt;577854&lt;/td&gt;
+       &lt;td&gt;577855&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td&gt;Jack&lt;/td&gt;
+       &lt;td&gt;577856&lt;/td&gt;
+       &lt;td&gt;577857&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+      &lt;tr&gt;
+       &lt;td&gt;&nbsp;&lt;/td&gt;
+       &lt;td&gt;Personal&lt;/td&gt;
+       &lt;td&gt;Office&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tfoot&gt;
+   &lt;/table&gt;
+                </code></pre>
+            </li>
+            <li><b>Form Tag:</b>The HTML form element is used to collect and send information to an external source.
+                <pre class="language-html"><code>
+             &lt;form action="/action.php" method="post"&gt;
+Name: &lt;input name="name" type="text" /&gt; &lt;br /&gt; 
+Age: &lt;input max="99" min="1" name="age" step="1" type="number" value="18" /&gt; &lt;br /&gt;
+&lt;select name="gender"&gt;
+&lt;option&gt; selected="selected" value="male"&gt;Male&lt;/option&gt;
+&lt;option&gt; value="female"&gt;Female&lt;/option&gt;
+&lt;/select&gt;&lt;br /&gt; 
+&lt;input checked="checked" name="newsletter" type="radio" value="daily" /&gt; Daily &lt;input name="newsletter" type="radio" value="weekly" /&gt; Weekly&lt;br /&gt;
+&lt;textarea&gt; cols="20" name="comments" rows="5"&gt;Comment&lt;/textarea&gt;&lt;br /&gt;
+&lt;label&gt;&lt;input name="terms" type="checkbox" value="tandc" /&gt;Accept terms&lt;/label&gt; &lt;br /&gt;
+&lt;input type="submit" value="Submit" /&gt;
+&lt;/form&gt;
+                </code></pre>
+            </li>
+            <li><b>Anchor Tag :</b>The <a> anchor element is used to create hyperlinks in an HTML document.
+                <pre class="language-html"><code>
+&lt; a href="http://www.codecademy.com"&gt;Visit this site&lt;/a&gt;
+&lt;!-- Creating image links --&gt;
+&lt;a href="http://www.codecademy.com"&gt;                    
+&lt;img src="logo.jpg"&gt;Click this image
+&lt;/a&gt;                    
+                </code></pre>
+            </li>
+            <li><b>Comments :</b>Content inside of comments will not be rendered by browsers, and are usually used to describe a part of code or provide other details.
+                <pre class="language-html"><code>
+&lt;!-- Main site content --&gt;
+&lt;div&gt;Content&lt;/div&gt;
+&lt;!--
+Comments can be 
+multiple lines long.
+--&gt;                    
+                </code></pre>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
